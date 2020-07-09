@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "start": "yarn workspace @test-package/app start",
+    "build": "yarn workspace @test-package/app build"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^1.4.0",
+    "snowpack": "^2.6.4"
+  }
+}
